@@ -1,0 +1,183 @@
+
+.App {
+  text-align: center;
+}
+
+.imgHeader{
+  background-color: #008040;
+}
+
+.toolbar{
+  background-color: #006432;
+  align-items: center;
+  justify-content: center;
+}
+
+.Header{
+  text-align: center;
+}
+
+.imgAdjust{
+  width: 40%;
+}
+
+.tabs{
+  font-weight: bolder;
+  color: white;
+}
+
+.tab:hover{
+  background-color: #002915;
+  transition: 0.5s;
+}
+
+.btnSubmit{
+  border: none;
+  border-radius: 20px;
+  margin-top: 12px;
+  margin-left: 20px;
+  width: 100px;
+  height: 35px;
+  background-color: rgb(110, 0, 110);
+  cursor: pointer;
+}
+
+.btnSubmit:hover{
+  transition: 0.2s;
+  background-color: rgb(94, 17, 167);
+}
+
+.linkTo{
+  font-size: 16px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: aqua;
+}
+
+.searchElements{
+  justify-content: right;
+  display: flex;
+}
+
+.textField{
+  width: 25%;
+  background-color: rgba(70, 69, 69, 0.295);
+}
+
+
+.containerCard{
+  flex: initial;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	width: 300px;
+	height: 450px;
+	box-shadow: -4px 4px 12px 0px darkgrey;
+  border-radius: 10px;
+  padding: 0px;
+	margin-top: 20px;
+	margin-left: 10px;
+	box-sizing: border-box;
+	text-align: center;
+  cursor: none;
+}
+
+.containerCardEpisode{
+  flex: initial;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	width: 300px;
+	height: 100px;
+	box-shadow: -4px 4px 12px 0px darkgrey;
+  border-radius: 10px;
+  padding: 0px;
+	margin-top: 20px;
+	margin-left: 10px;
+	box-sizing: border-box;
+	text-align: center;
+  cursor: none;
+}
+
+.containerCardLocation{
+  flex: initial;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	width: 300px;
+	height: 150px;
+	box-shadow: -4px 4px 12px 0px darkgrey;
+  border-radius: 10px;
+  padding: 0px;
+	margin-top: 20px;
+	margin-left: 10px;
+	box-sizing: border-box;
+	text-align: center;
+  cursor: none;
+}
+
+.containerCard:hover{
+  border: 5px solid #008040;
+	transition: 0.2s;
+}
+
+.cardAction:hover{
+  color: #006432;
+}
+
+.detailCharacter{
+  font-size: 15px;
+}
+
+.containerSeason{
+  display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.styleTitleSeason{
+  width: 100%;
+	height: 60px;
+	border-bottom: 5px solid grey;
+	font-size: 20px;
+	margin: 20px 10px;
+  text-align: center;
+  color: white;
+}
+
+.containerPagination{
+  min-height: 60px;
+	width: 80vw;
+	flex-wrap: wrap;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*CIRCLEPAGE*/
+.circlePage{
+  width: 25px;
+  height: 25px;
+	margin-top: 10px;
+	margin-right: 10px;
+	border: 1px solid white;
+	border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	cursor: pointer;
+  color: white;
+}
+/*CIRCLEPAGE*/
+
+/*MAIN BODY FOR EACH DISPLAY (CHARACTER, LOCATIONS, EPISODES)*/
+.mainBody{
+  background: linear-gradient(rgba(76, 1, 138, 0.781),rgba(76, 1, 138, 0.781)), url("./assets/img/background.jpg");
+  background-size: cover;
+  min-height: calc(100vh - 200px);
+  padding: 0 30px;
+}
